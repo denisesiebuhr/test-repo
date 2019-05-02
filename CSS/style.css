@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+@import url('https://fonts.googleapis.com/css?family=Abel');
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+body{
+  font-family: 'Abel', sans-serif;
+  max-width: 1280px;
+  min-width: 400px;
+  background-color: #fff;
+}
+
+nav {
+  max-width: 1280px;
+  display: flex;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  padding-left: 0px;
+}
+
+head {
+  font: 'Audiowide';
+}
+
+.hero {
+  text-align: center;
+  padding: 40px;
+  height: 120px;
+}
+
+h1 {
+  font-family: 'Audiowide';
+}
+
+
+a {
+    display: flex;
+    padding: 10px 20px 10px 20px;
+    color: #212121;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 18px;
+    text-align: center;
+}
+
+a:hover {
+	color: #fa8072;
+  font-weight: bold;
+}
+
+.active {
+    font-family: 'Abel', arial;
+    font-weight: bold;
+}
+
+ul {
+  max-width: 1280px;
+  display: flex;
+  margin: 20px 0px 50px 0px;
+  list-style-type: none;
+  text-align: center;
+}
+
+
+.column {
+  width: 50%;
+  float: left;
+  display: flex;
+}
+
+.one {
+  text-align: center;
+  padding-right: 25px;
+  padding-left: 45px;
+}
+
+.two {
+  padding-left: 25px;
+  padding-right: 45px;
+  text-align: center;
+}
+
+.button {
+  font-family: 'Abel', sans-serif;
+  text-decoration: none;
+	color: #fff;
+  display: block;
+	background-color: #000;
+  border-radius: 4px;
+	padding: 10px;
+  margin: 40px 150px 40px 150px;
+}
+
+
+.copywright {
+  width: 50%;
+  padding-top: 50px;
+  padding-left: 35px;
+  text-align: left;
+}
+
+.email {
+    padding-top: 50px;
+    padding-right: 35px;
+    width: 50%;
+    text-align: right;
+}
